@@ -23,7 +23,6 @@ export class AgregarComponent {
 
     console.log(this.nuevo);
 
-    // this.onNuevoPersonaje.emit( this.nuevo )
     this.dbzService.agregarPersonaje( this.nuevo )
 
     this.nuevo = {
